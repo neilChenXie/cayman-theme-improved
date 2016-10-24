@@ -8,6 +8,7 @@ create_pages:
 deploy_pages:
     script:
         - jekyll build
+        - ssh root@172.16.1.114 "mkdir /opt/apache/htdocs/TODO"
         - scp -r _site/* root@172.16.1.114:/opt/apache/htdocs/TODO/
         - ssh root@172.16.1.114 "chmod a+r /opt/apache/htdocs/TODO"
     only:
