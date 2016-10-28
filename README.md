@@ -38,8 +38,8 @@
 
 ### 本地调试
 
-需要先安装ruby和gem，然后通过gem安装jekyll和jekyll-paginate。
+需要先安装`ruby`和`gem`，然后通过gem安装`jekyll`和`jekyll-paginate`。
 
 通过`ruby -v`和`jekyll -v`验证安装
 
-在文件根目录`jekyll serve`运行，通过`127.0.0.1:4000/{{根目录,默认TODO}}`访问
+在文件根目录`jekyll serve`运行，通过`127.0.0.1:4000/doc/{{根目录,默认TODO}}`访问
