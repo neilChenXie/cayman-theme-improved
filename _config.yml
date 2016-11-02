@@ -1,6 +1,6 @@
 # Setup
 title:        TODO #TODO:大标题
-tagline:      NEED TODO #TODO:二级标题
+tagline:      Gitlab Pages for Sekorm+ #TODO:二级标题
 url:          "http://172.16.1.114/doc/TODO/" #TODO:TODO改为用户名
 baseurl:      "/doc/TODO" #TODO:根目录，改为用户名
 paginate:     1
@@ -8,7 +8,7 @@ paginate:     1
 # About/contact
 author:
   name:       TODO  #TODO名字
-  email:        TODO  #TODO邮箱
+  email:      TODO  #TODO邮箱
   gitlab:     172.16.1.114:81/TODO/ #TODO:用户名
 
 # Gems
