@@ -1,7 +1,5 @@
 ---
-layout: post
 title: Hello World题目
-permalink: /:categories/hello_world_url/
 date: 2016-10-24 09:30:15 +0800
 category: Hello_Category
 tags: [hello, world]
@@ -23,4 +21,4 @@ tags: [hello, world]
 
 [链接]({{site.baseurl}}/Hello_Category/hello_world_url/)
 
-![图片]({{site.baseurl}}/img/hello/test.png)
+![图片]({{site.baseurl}}/public/image/hello/test.png)
