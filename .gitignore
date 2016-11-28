@@ -1,28 +1,23 @@
 # project specific
 file
 
-# general
+# general #
 *.[oa] *~
 .*.sw[po]
 
-# java
-*.class
+## Windows
+Thumbs.db
+desktop.ini
 
-# Package Files #
-*.jar
-*.war
-*.ear
+## OS X
+.DS_Store
+.Spotlight-V100
+.Trashes
+._*
 
-# ignore Maven generated target folders
-target
-
-# ignore eclipse files
-.project
-.classpath
-.settings
-.metadata
-
-# jekyll
+# jekyll #
 _site
 .sass-cache
 .jekyll-metadata
+derby.log
+Gemfile.lock
