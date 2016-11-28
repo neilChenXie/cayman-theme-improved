@@ -10,6 +10,7 @@ and Plugins:
 
 1. Add **Tag** feature
 2. Add **toc** for post
+3. Simplify and Improve configuration
 
 > this 2 features are critical for a **complete** blog system
 
