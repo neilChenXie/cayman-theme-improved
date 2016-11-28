@@ -35,15 +35,15 @@ jekyll serve
 
 #### 2.1 Index page
 
-![](http://chen-node.com/public/image/README/example.png)
+![](https://github.com/neilChenXie/jekyll-cayman-theme-improved/blob/master/public/image/README/example.png)
 
 #### 2.2 Table of Content on the left side
 
-![](http://chen-node.com/public/image/README/example1.png)
+![](https://github.com/neilChenXie/jekyll-cayman-theme-improved/blob/master/public/image/README/example1.png)
 
 #### 2.3 Tag Cloud page
 
-![](http://chen-node.com/public/image/README/example2.png)
+![](https://github.com/neilChenXie/jekyll-cayman-theme-improved/blob/master/public/image/README/example2.png)
 
 ### 3 Folder structure
 
