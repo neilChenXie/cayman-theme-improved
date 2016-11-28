@@ -6,41 +6,44 @@ and Plugins:
 
 * [jekyll-table-of-contents](https://github.com/ghiculescu/jekyll-table-of-contents)
 
+### Improved
+
+1. Add **Tag** feature
+2. Add **toc** for post
+
+> this 2 features are critical for a **complete** blog system
+
 ### 1 Setup
 
-文件:
+1.1 \_config.yml
 
-\* \_config.yml
+> Modify all `TODO`
 
-> 修改所有TODO的地方
+1.2 Install
 
-\* .gitlab-ci.yml
+```bash
+# under root folder
+bundle install
 
-> 将TODO换为自己的用户名
+# local run
+jekyll serve
+```
 
-### 2 Blog Writing
+### 2 Example
 
-在`_post`文件夹下写**markdown**文件。几个要点：
+[Chen Blog](http://chen-node.com/)
 
-1 文件名：`yyyy-MM-dd-name_no_space`
+#### 2.1 Index page
 
-> 名字四部分：年，月，日，名字。名字中不能有`-`号和空格，否则不能被识别
+![](http://chen-node.com/public/image/README/example.png)
 
-2 每篇头信息很重要
+#### 2.2 Table of Content on the left side
 
-> [中文官方文档-头信息](http://jekyll.com.cn/docs/frontmatter/)。例子`_posts/hello/2016-10-24-hello_world.md`
+![](http://chen-node.com/public/image/README/example1.png)
 
-3 （可自定义修改）写作以h3为顶级标题
+#### 2.3 Tag Cloud page
 
-> 因为目录插件的**配置**支持h3,h4,h5。可**自定义**修改配置，在js/tocUse.js中。[官方链接](https://github.com/ghiculescu/jekyll-table-of-contents)
-
-### 本地调试
-
-需要先安装`ruby`和`gem`，然后通过gem安装`jekyll`和`jekyll-paginate`。
-
-通过`ruby -v`和`jekyll -v`验证安装
-
-在文件根目录`jekyll serve`运行，通过`127.0.0.1:4000/doc/{{根目录,默认TODO}}`访问
+![](http://chen-node.com/public/image/README/example2.png)
 
 ### 3 Folder structure
 
