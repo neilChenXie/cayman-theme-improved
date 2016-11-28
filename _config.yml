@@ -1,19 +1,40 @@
 # Setup
-title:        TODO #TODO:大标题
-tagline:      Gitlab Pages for Sekorm+ #TODO:二级标题
-url:          "http://172.16.1.114/doc/TODO/" #TODO:TODO改为用户名
-baseurl:      "/doc/TODO" #TODO:根目录，改为用户名
-paginate:     1
+title:        Cayman Improved
+tagline:      cayman improved is developed by Chen Xie
+url:          "http://TODO.com/"
+baseurl:      ""
+#paginate:     1
 
 # About/contact
 author:
-  name:       TODO  #TODO名字
-  email:      TODO  #TODO邮箱
-  gitlab:     172.16.1.114:81/TODO/ #TODO:用户名
+  name:       TODO
+  repoUrl:    http://TODO
+  repo:       TODO(Gitlab or GitHub)
 
 # Gems
 gems:
-  - jekyll-paginate
+  #- jekyll-paginate
+  #- jekyll-seo-tag
 
 #Others
 markdown: kramdown
+
+#Collection
+collections:
+  tags_page:
+      output: true
+          
+#文章yml头默认参数
+defaults:
+    - scope:
+        path: ""
+        type: tags_page
+      values:
+        layout: page_tag
+        permalink: /tag/:title/
+    - scope:
+        path: ""
+        type: "posts"
+      values:
+        layout: post
+        permalink: :categories/:title/
